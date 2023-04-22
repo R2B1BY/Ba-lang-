@@ -7,4 +7,4 @@ esdeger_kutle = molekul_kutlesi/tesir_degerligi
 
 cozunen_maddenin_esdegerlik_sayisi = cozunen_maddenin_etkisi/esdeger_kutle
 normalite = cozunen_maddenin_esdegerlik_sayisi/hacim 
-print("Normalite",Normalite)
+print("Normalite",normalite)
