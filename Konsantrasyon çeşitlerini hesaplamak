@@ -1,0 +1,9 @@
+#normalite hesaplama 
+cozunen_maddenin_etkisi = float(input('CÖZÜNEN MADDENİN KÜTLESİ:'))
+molekul_kutlesi = float(input('molekul kütlesi giriniz:'))
+tesir_degerligi = float(input('tesir değerliği:'))
+hacim = float(input('hacim değerini giriniz:'))
+esdeger_kutle = molekul_kutlesi/tesir_degerligi
+
+cozunen_maddenin_esdegerlik_sayisi = cozunen_maddenin_etkisi/esdeger_kutle
+normalite = cozunen_maddenin_esdegerlik_sayisi/hacim 
